@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(BB.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    text-align: center;
+}
+
+.H1 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgba(231, 134, 140, 0.8);
+    border-radius: 10px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 34px;
+    margin: 50px auto; 
+    padding: 20px;     
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.Bio, .Journey, .Goals, .Projects, .Contacts {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 700px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right, rgba(82, 202, 246, 0.5), rgba(177, 215, 240, 0.5));
+}
+
+.Goals{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Bio{
+    width: 80%;
+    background: linear-gradient(to right, rgba(82, 202, 246, 0.5), rgba(177, 215, 240, 0.5));
+    height: 300px;
+    font-size: 19px;
+}
+
+.Journey{
+    background: linear-gradient(to right, rgba(82, 202, 246, 0.5), rgba(177, 215, 240, 0.5));
+}
+
+.Contacts{
+    background: linear-gradient(to right, rgba(226, 202, 220, 0.5), rgba(228, 118, 160, 0.7));
+}
+
+.bigtext {
+    font-family: "Orbitron", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    border: 4px solid #c192c6;
+    border-radius: 5px;
+    width: 60px;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(82, 202, 246, 0.5), rgba(177, 215, 240, 0.5));
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.sidebar a {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
